@@ -38,4 +38,22 @@ const {
         },
       ],
     });
+
+   export const AILogoPrompt = model.startChat({
+      generationConfig,
+      history: [
+        {
+          role: "user",
+          parts: [
+            {text: "Generate a text prompt to create Logo for Logo Title/Brand name : Hulk},with description: Power and Blast}, with Color combination of Forest Greens}, also include the Hulk Smash Retro Emblem} and include Vintage Logo Designs With Text & Icon} design idea and Referring to this Logo Prompt:Design a collection of vintage-inspired logos with a hand-drawn, artistic style. Incorporate a variety of themes, including food, animals, characters, and unique brand elements. Each logo should feature bold typography, intricate details, and a retro aesthetic that is versatile and suitable for diverse brands or businesses.}  Give me result in JSON portal with prompt field only"},
+          ],
+        },
+        {
+          role: "model",
+          parts: [
+            {text: "```json\n{\n  \"prompt\": \"Create a vintage logo design for the brand \\\"Hulk\\\" with the theme of \\\"Power and Blast\\\". The logo should incorporate a color combination of Forest Greens. Include a retro emblem reminiscent of the \\\"Hulk Smash\\\" action. Emphasize a hand-drawn, artistic style with bold typography and intricate details. The overall aesthetic should be vintage and versatile, suitable for a brand conveying strength and impact. Consider the style of vintage logos featuring text and icons. Reference hand-drawn vintage logo designs with themes of characters and unique brand elements, ensuring a retro aesthetic that's bold and detailed, adaptable for a variety of brands.\"\n}\n```\n"},
+          ],
+        },
+      ],
+    });
   
