@@ -1,8 +1,8 @@
 "use client"
 import React, { useState } from 'react'
 import HeadingDescription from './HeadingDescription'
-import Lookup from '@/app/_data/Lookup'
-import LogoDesig from '@/app/_data/LogoDesig'
+import Lookup from '../../_data/Lookup'
+import LogoDesig from '../../_data/LogoDesig'
 import Image from 'next/image'
 
 const LogoDesigns = ({onHandleInputChange,formData}) => {

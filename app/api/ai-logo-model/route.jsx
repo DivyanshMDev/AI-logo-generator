@@ -48,8 +48,8 @@
 
 
 
-import { AILogoPrompt } from "@/configs/Aimodel";
-import { db } from "@/configs/FirebaseConfig";
+import { AILogoPrompt } from "../../../configs/Aimodel";
+import { db } from "../../../configs/FirebaseConfig";
 
 import axios from "axios";
 import { doc, setDoc } from "firebase/firestore";

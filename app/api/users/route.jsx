@@ -39,7 +39,7 @@
 //although the code below is changed but its same as above I did so as I
 //faced problem in setting up the firebase
 
-import { db } from "@/configs/FirebaseConfig";
+import {db} from "../../../configs/FirebaseConfig";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { NextResponse } from "next/server";
 

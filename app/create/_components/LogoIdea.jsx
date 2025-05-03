@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import HeadingDescription from './HeadingDescription'
-import Lookup from '@/app/_data/Lookup'
-import Prompt from '@/app/_data/Prompt'
+import Lookup from '../../_data/Lookup'
+import Prompt from '../../_data/Prompt'
 import axios from 'axios'
 import { Loader2Icon } from 'lucide-react'
 

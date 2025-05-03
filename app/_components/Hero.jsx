@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Lookup from '../_data/Lookup'
-import { Button } from '@/components/ui/button'
+import { Button } from '../_components2/ui/button';
 import Link from 'next/link'; 
 function Hero() { 
     const [LogoTitle,setLogoTitle]=useState();

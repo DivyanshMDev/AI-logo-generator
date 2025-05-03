@@ -1,9 +1,9 @@
 "use client"
 import React, { useEffect } from 'react'
 import HeadingDescription from './HeadingDescription'
-import Lookup from '@/app/_data/Lookup'
+import Lookup from '../../_data/Lookup'
 import Image from 'next/image'
-import { Button } from '@/components/ui/button'
+import { Button } from '../../_components2/ui/button'
 import { useUser } from '@clerk/nextjs'
 import { SignIn, SignInButton } from '@clerk/clerk-react'
 import Link from 'next/link'

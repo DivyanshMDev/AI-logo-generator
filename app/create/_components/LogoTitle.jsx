@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import HeadingDescription from './HeadingDescription'
-import Lookup from '@/app/_data/Lookup'
+import Lookup from '../../_data/Lookup'
 import { useSearchParams } from 'next/navigation'
 
 const LogoTitle = ({onHandleInputChange}) => {
