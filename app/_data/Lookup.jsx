@@ -26,22 +26,22 @@ export default{
                 '⚫ Longer wait times',
                 '⚫ Wait time: 30 seconds to 3 minutes',
                 '⚫ Limited Design Options and Quality',
-                '⚫ Slow (Not Recommended)'
+                // '⚫ Slow (Not Recommended)'
             ],
-            button:'Generate Free'
-        },
-        {
-            title: 'Premium',
-            icon: '/thunder.png', // Add your premium plan icon here
-            features: [
-                '⚫ Generate unlimited logos',
-                '⚫ Shorter wait times',
-                '⚫ Wait time: Less than 10 seconds',
-                '⚫ Only 5 Credits',
+            button:'Generate for Free'
+        // },
+        // {
+        //     title: 'Premium',
+        //     icon: '/thunder.png', // Add your premium plan icon here
+        //     features: [
+        //         '⚫ Generate unlimited logos',
+        //         '⚫ Shorter wait times',
+        //         '⚫ Wait time: Less than 10 seconds',
+        //         '⚫ Only 5 Credits',
                 
-            ],
-            button:'Generate For Credits'
-        }
+        //     ],
+        //     button:'Generate For Credits'
+         }
     ],
 }
 

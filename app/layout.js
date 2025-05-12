@@ -3,6 +3,7 @@ import "./globals.css";
 import Provider from "./Provider";
 import { ClerkProvider } from "@clerk/nextjs";
 
+
 const bree_serif=Bree_Serif({
   subsets:['latin'],
   weight:'400'
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       <body
         className={bree_serif.className}
       >
+        
         <Provider>
 
         {children}
